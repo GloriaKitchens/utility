@@ -39,10 +39,6 @@ color: white;
 .button:hover {
     background-color: aliceblue;
 }
-.ads {
-    position:fixed;
-    bottom:0;
-}
 /* .animation {
     background-color: red;
 } */
