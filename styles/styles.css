@@ -11,6 +11,14 @@ text-shadow: 2px 2px 5px rgb(255, 255, 255);
 p {
 color: white;
 }
+.container {
+    height: 100px;
+    width: 50vw;
+    background-color: wheat;
+    margin: 50px;
+    border: 10px;
+    color: black;
+}
 .center {
     margin: auto;
     width: 100vw;
@@ -26,9 +34,14 @@ color: white;
     letter-spacing: 1px;
     text-align: center;
     margin: auto;
+    transition: background-color 500ms ease;
 }
 .button:hover {
     background-color: aliceblue;
+}
+.ads {
+    position:fixed;
+    bottom:0;
 }
 /* .animation {
     background-color: red;
